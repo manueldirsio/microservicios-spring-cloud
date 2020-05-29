@@ -16,7 +16,7 @@ import javax.persistence.Transient;
 @Entity
 @Table(name = "productos")
 public class Producto implements Serializable{
-
+//Hola
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
